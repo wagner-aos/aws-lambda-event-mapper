@@ -1,0 +1,105 @@
+{
+  "Records": [
+    {
+      "eventID": "1",
+      "eventVersion": "1.0",
+      "dynamodb": {
+        "Keys": {
+          "Id": {
+            "N": "ec4604df-da40-4da8-8a14-284e22793a31"
+          }
+        },
+        "NewImage": {
+		  "concessionariaId": {
+		    "S": "1022"
+		  },
+		  "dataProcessamento": {
+		    "S": "2018-05-15T14:45:31.835Z"
+		  },
+		  "id": {
+		    "S": "ec4604df-da40-4da8-8a14-284e22793a31"
+		  },
+		  "listaPassagemProcessada": {
+		    "L": [
+		      {
+		        "M": {
+		          "motivoNaoComp": {
+		            "N": "0"
+		          },
+		          "motivoOutroValor": {
+		            "N": "0"
+		          },
+		          "motivoProv": {
+		            "N": "0"
+		          },
+		          "pagamento": {
+		            "N": "1528945200"
+		          },
+		          "passagemId": {
+		            "N": "1526384712727002816"
+		          },
+		          "reenvio": {
+		            "N": "0"
+		          },
+		          "resultado": {
+		            "N": "1"
+		          },
+		          "valePedagio": {
+		            "N": "0"
+		          },
+		          "valor": {
+		            "N": "3.6"
+		          }
+		        }
+		      },
+		      {
+		        "M": {
+		          "motivoNaoComp": {
+		            "N": "0"
+		          },
+		          "motivoOutroValor": {
+		            "N": "0"
+		          },
+		          "motivoProv": {
+		            "N": "0"
+		          },
+		          "pagamento": {
+		            "N": "1528945200"
+		          },
+		          "passagemId": {
+		            "N": "1526384710227002817"
+		          },
+		          "reenvio": {
+		            "N": "0"
+		          },
+		          "resultado": {
+		            "N": "1"
+		          },
+		          "valePedagio": {
+		            "N": "0"
+		          },
+		          "valor": {
+		            "N": "3.6"
+		          }
+		        }
+		      }
+		    ]
+		  },
+		  "osaId": {
+		    "N": "5"
+		  },
+		  "sequencial": {
+		    "N": "61"
+		  }
+		},
+        "StreamViewType": "NEW_AND_OLD_IMAGES",
+        "SequenceNumber": "111",
+        "SizeBytes": 26
+      },
+      "awsRegion": "us-west-1",
+      "eventName": "INSERT",
+      "eventSourceARN": "arn:aws:dynamodb:us-east-1:ACCOUNT_ID:table/TableName/stream/2018-06-01T17:38:53.651",
+      "eventSource": "aws:dynamodb"
+    }
+  ]  
+}
